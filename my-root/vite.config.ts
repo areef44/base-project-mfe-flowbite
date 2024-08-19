@@ -14,7 +14,7 @@ export default defineConfig({
         subApp: 'http://localhost:5001/assets/remoteEntry.js',
         // subApp: 'subApp@http://localhost:5001/assets/remoteEntry.js'
       },
-      shared: require("./package.json").dependencies,
+      shared: ['vue', 'vue-router', 'pinia', 'tailwindcss'],
     }),
   ],
   build: {

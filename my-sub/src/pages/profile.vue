@@ -1,5 +1,6 @@
 <template>
     <h2 class="text-black dark:text-white">this is profile view in subb app</h2>
+    <i class="mdi mdi-account text-blue-500 text-2xl dark:text-white"></i>
     <form>
         <div class="grid gap-6 mb-6 md:grid-cols-2">
             <div>

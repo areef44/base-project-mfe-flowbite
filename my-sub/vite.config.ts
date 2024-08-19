@@ -21,7 +21,7 @@ export default defineConfig({
         './ProfilePage': './src/pages/profile.vue', // Example of exposing a component
         './IndexPage': './src/pages/index.vue', // Example of exposing a component
       },
-      shared: require("./package.json").dependencies,
+      shared: ['vue', 'vue-router', 'pinia', 'tailwindcss'],
     }),
   ],
   optimizeDeps:{
