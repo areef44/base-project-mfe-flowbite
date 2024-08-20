@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref,onMounted,onUnmounted } from 'vue';
 import AppTopbar from './AppTopbar.vue';
-import AppSidebar from './AppSidebar.vue'
+// import AppSidebar from './AppSidebar.vue'
 import AppContent from './AppContent.vue'
 import { initFlowbite } from 'flowbite'
 
@@ -38,6 +38,6 @@ onUnmounted(() => {
 
 <template>
 <AppTopbar :toggleMobile="toggleMobile"/>
-<AppSidebar :toggleButton="toggleButton" :deviceType="deviceType"/>
+<!-- <AppSidebar :toggleButton="toggleButton" :deviceType="deviceType"/> -->
 <AppContent :toggleButton="toggleButton" :deviceType="deviceType"/>
 </template>

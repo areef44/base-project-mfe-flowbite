@@ -8,11 +8,17 @@ const routes: Array<RouteRecordRaw> = [
       path: '/',
       name: 'Dashboard',
       component: Dashboard,
+      meta: {
+        icon: 'mdi-chart-pie-outline',
+      },
     },
     {
       path: '/profile',
       name: 'Profile',
       component: Profile,
+      meta: {
+        icon: 'mdi-account-outline',
+      },
     },
 ];
 

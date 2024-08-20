@@ -70,8 +70,12 @@ onMounted(() => {
       <div class="flex items-center">
         <div class="flex items-center ms-3">
           <button @click="toggleDarkMode">
-            <span v-if="isDarkMode" class="text-gray-900 dark:text-white">🌙</span>
-            <span v-else>☀️</span>
+            <span v-if="isDarkMode" class="text-gray-900 text-2xl dark:text-white">
+              <i class="mdi mdi-weather-night"></i>
+            </span>
+            <span v-else class="text-gray-900 text-2xl dark:text-white">
+              <i class="mdi mdi-weather-sunny"></i>
+            </span>
           </button>
         </div>
 
