@@ -12,7 +12,7 @@ export default defineConfig({
       name: 'my_root',
       remotes: {
         subApp: 'http://localhost:5001/assets/remoteEntry.js',
-        // subApp: 'subApp@http://localhost:5001/assets/remoteEntry.js'
+        reactSubApp: 'http://localhost:5002/assets/remoteEntry.js'
       },
       shared: ['vue', 'vue-router', 'pinia', 'tailwindcss'],
     }),

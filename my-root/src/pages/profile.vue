@@ -13,6 +13,8 @@ const loadSubAppComponent = async () => {
 onMounted(() => {
   loadSubAppComponent();
 });
+
+
 </script>
 <template>
     <h2>this is profile view</h2>

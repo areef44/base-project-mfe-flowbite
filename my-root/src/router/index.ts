@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Dashboard from '../pages/index.vue'
 import Profile from '../pages/profile.vue'
-
+import React from '../pages/react-component.vue';
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -18,6 +18,14 @@ const routes: Array<RouteRecordRaw> = [
       component: Profile,
       meta: {
         icon: 'mdi-account-outline',
+      },
+    },
+    {
+      path: '/react',
+      name: 'React Component',
+      component: React,
+      meta: {
+        icon: 'mdi-react',
       },
     },
 ];
